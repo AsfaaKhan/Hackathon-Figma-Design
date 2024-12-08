@@ -95,8 +95,8 @@ export default function Contact() {
                     ">
                           {/* Heading */}
                 <div className="flex flex-col justify-center items-center text-center gap-[10px]">
-                <p className="font-bold text-base  text-darkBlue" style={{ "letterSpacing": "0.1px" }}>WE Can't WAIT TO MEET YOU </p>
-                    <h3 className="font-bold text-[58px] leading-[80px] text-darkBlue" style={{ "letterSpacing": "0.2px" }}>Let’s Talk</h3>
+                <p className="font-bold text-base  text-darkBlue" style={{ "letterSpacing": "0.1px" }}>{`WE Can't WAIT TO MEET YOU `}</p>
+                    <h3 className="font-bold text-[58px] leading-[80px] text-darkBlue" style={{ "letterSpacing": "0.2px" }}>{`Let’s Talk`}</h3>
                     
                     <Button name="Try it free now"/>
 

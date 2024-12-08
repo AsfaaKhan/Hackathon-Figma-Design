@@ -4,7 +4,7 @@ import Header from "@/components/header";
 import BestSeller from "@/components/bestsellerproduct"
 import Link from "next/link"
 import { PiGreaterThanLight } from "react-icons/pi";
-import { ShoppingCart, Slash } from "lucide-react"
+import { Slash } from "lucide-react"
 import { CiHeart } from "react-icons/ci";
 import { CgShoppingCart } from "react-icons/cg";
 import { EyeIcon } from "lucide-react";

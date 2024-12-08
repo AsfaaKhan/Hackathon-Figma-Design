@@ -1,12 +1,12 @@
+interface ButtonProps { name: string; }
 
-const Button3  =(props: any)=>{
+const Button3  =(props: ButtonProps)=>{
     return(
     
             <section>
-                <div className="bg-white rounded-[5px] w-[184px] h-[52px] pt-[15px] pb-[15px] pr-10 pl-10 gap-[10px]">{props.name}
-                <h2 className="text-[#2DC071] font-bold text-base text-center" style={{letterSpacing:"0.2px"}}>{props.btn}</h2>
-                </div>
+                <div className="bg-white rounded-[5px] w-[184px] h-[52px] pt-[15px] pb-[15px] pr-10 pl-10 gap-[10px]text-[#2DC071] font-bold text-base text-center"   style={{letterSpacing:"0.2px"}}>{props.name}
                 
+                </div>
             </section>
         
     )
