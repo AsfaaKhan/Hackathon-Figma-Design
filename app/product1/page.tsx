@@ -45,8 +45,8 @@ export default function Product1() {
                         </Breadcrumb>
                     </div>
                 </div>
-                <div className="bg-[#FAFAFA]">
-                    <div className="container pb-12 flex gap-[30px] flex-col  md:flex-row ">
+                <div className="container bg-[#FAFAFA]">
+                    <div className=" pb-12 flex gap-[30px] flex-col  md:flex-row ">
                         <div className="md:w-1/2">
                             <Image src={"/sellerproduct/col-md-6.svg"}
                                 alt="shop"

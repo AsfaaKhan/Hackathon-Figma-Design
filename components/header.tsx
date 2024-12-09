@@ -28,14 +28,14 @@ export default function Header() {
             <nav >
                 <div className=" h-[58px]  flex items-center text-center justify-between ">
                     {/*             LOGO                    */}
-                    <div className="w-[187px] text-2xl font-bold text-darkBlue bg-[#ffffff]">
+                    <div className=" text-2xl font-bold text-darkBlue bg-[#ffffff]">
                         <h3>Bandage</h3>
                     </div>
 
 
 
                     {/*             NAVBAR ITEMS                  */}
-                    <div className=" hidden lg:flex gap-[15px]    font-bold   justify-center items-center text-sm leading-6 text-gray text-center w-[361px]" style={{ "letterSpacing": "0.1px" }}>
+                    <div className="hidden lg:flex gap-[15px]    font-bold   justify-center items-center text-sm leading-6 text-gray text-center " style={{ "letterSpacing": "0.1px" }}>
                         <Link className="  hover:underline hover:text-darkBlue  " href="/">Home</Link>
                         <NavigationMenu>
                             <NavigationMenuList>

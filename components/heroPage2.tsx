@@ -4,7 +4,7 @@ import Button3 from "./button3"
 
 export default function HeroPage2() {
     return (
-        <div>
+        <div className="">
             {/* 1st row */}
             <div className="bg-green text-white">
 
@@ -18,7 +18,7 @@ export default function HeroPage2() {
 
                         <div className="font-normal text-sm sm:w-[341px]" style={{ letterSpacing: "0.2px" }}> <h1>We know how large objects will act, We know how are objects will act, We know</h1></div>
 
-                        <div className="flex gap-[34px] items-center">
+                        <div className="flex gap-[30px] items-center">
                             <h3 className="font-bold text-2xl" style={{ letterSpacing: "0.1px" }}> $16.48</h3>
                             <Button2 name="ADD TO CART" />
                         </div>
@@ -48,7 +48,7 @@ export default function HeroPage2() {
                     <div>
                         <Image src={"/images/asian-woman-man-with-winter-clothes 1.svg"}
                             alt="heropage-image"
-                            width={510}
+                            width={450}
                             height={684}></Image>
                     </div>
 

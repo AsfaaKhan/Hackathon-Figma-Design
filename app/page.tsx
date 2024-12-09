@@ -8,7 +8,7 @@ import Post from "@/components/post";
 export default function Home() {
   return (
     <div>
-      <HeadLine/>
+      <HeadLine />
       <Header/>
       <HeroPage/>
       <Gallery/>

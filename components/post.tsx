@@ -4,7 +4,7 @@ import { PiGreaterThan } from "react-icons/pi";
 export default function Post() {
     return (
         <div>
-            <div className="pt-20 pb-20 gap-20 ">
+            <div className="pt-20 pb-20 gap-20 b ">
 
                 {/* Heading */}
                 <div className="flex flex-col justify-center items-center text-center gap-[10px]  ">
@@ -17,10 +17,10 @@ export default function Post() {
 
                 {/* Cards */}
 
-                <div className=" container flex flex-col items-center justify-center md:flex-row pt-20 pb-20  gap-[30px]">
+                <div className="  flex flex-col items-center justify-center md:flex-row pt-20 pb-20  gap-[30px]">
 
                     {/* Card 1 */}
-                    <div className=" w-[315px]">
+                    <div className="w-[300px]">
                         {/* Image */}
                         <div>
                             <Image src={"/images/p1.svg"}
@@ -48,7 +48,7 @@ export default function Post() {
                                     keystroke away.`}</p>
                             </div>
 
-                            <div className=" flex justify-between pt-[15px] pb-[15px] ">
+                            <div className=" flex gap-[15px] pt-[15px] pb-[15px] ">
                                 <Image src={"/images/Frame 1.svg"}
                                 alt="time"
                                 width={105}
@@ -70,7 +70,7 @@ export default function Post() {
                     </div>
 
                     {/* Card2 */}
-                    <div className=" w-[315px]">
+                    <div className="  w-[300px]">
                         {/* Image */}
                         <div>
                             <Image src={"/images/p2.svg"}
@@ -98,7 +98,7 @@ export default function Post() {
                                     keystroke away.`}</p>
                             </div>
 
-                            <div className=" flex justify-between pt-[15px] pb-[15px] ">
+                            <div className=" flex  pt-[15px] pb-[15px] ">
                                 <Image src={"/images/Frame 1.svg"}
                                 alt="time"
                                 width={105}
@@ -120,7 +120,7 @@ export default function Post() {
                     </div>
 
                     {/* Card3 */}
-                    <div className=" w-[315px]">
+                    <div className=" w-[300px]">
                         {/* Image */}
                         <div>
                             <Image src={"/images/p3.svg"}
@@ -148,7 +148,7 @@ export default function Post() {
                                     keystroke away.`}</p>
                             </div>
 
-                            <div className=" flex justify-between pt-[15px] pb-[15px] ">
+                            <div className=" flex pt-[15px] pb-[15px] ">
                                 <Image src={"/images/Frame 1.svg"}
                                 alt="time"
                                 width={105}

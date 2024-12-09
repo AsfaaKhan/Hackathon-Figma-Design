@@ -18,7 +18,7 @@ export default function Gallery() {
             <div className="container flex flex-col  gap-[30px]  lg:flex-row">
                 {/* 1st side */}
 
-                <div className="  lg:w-[500px] h-[500px]  bg-[url('/images/1.svg')] bg-no-repeat bg-cover bg-center ">
+                <div className=" w-full lg:w-[500px] h-[500px]  bg-[url('/images/1.svg')] bg-no-repeat bg-cover bg-center ">
                     <div className=" pt-[400px] pl-[14px]"> <Button1 name="Men" /></div>
 
                 </div>
