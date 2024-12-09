@@ -7,7 +7,7 @@ export default function Post() {
             <div className="pt-20 pb-20 gap-20 b ">
 
                 {/* Heading */}
-                <div className="flex flex-col justify-center items-center text-center gap-[10px]  ">
+                <div className="container flex flex-col justify-center items-center text-center gap-[10px]  ">
                     <h4 className="font-bold text-sm leading-[24px] text-skyblue " style={{ letterSpacing: "0.2px" }}>Practice Advice</h4>
                     <h3 className="font-bold text-[40px] leading-[50px]  text-darkBlue" style={{ letterSpacing: "0.1px" }}>Featured Posts</h3>
                     <p className="text-gray font-normal text-center text-sm " style={{ letterSpacing: "0.1px" }}>Problems trying to resolve the conflict between
@@ -17,7 +17,7 @@ export default function Post() {
 
                 {/* Cards */}
 
-                <div className="  flex flex-col items-center justify-center md:flex-row pt-20 pb-20  gap-[30px]">
+                <div className=" container flex flex-col items-center justify-center md:flex-row pt-20 pb-20  gap-[30px]">
 
                     {/* Card 1 */}
                     <div className="w-[300px]">
@@ -79,7 +79,7 @@ export default function Post() {
                                 height={306}></Image>
                         </div>
                         {/* Text */}
-                        <div className="pt-[25px]  pb-[35px] pr-[25px] pl-[25px] gap-[10px] flex  flex-col">
+                        <div className="pt-[25px]  pb-[35px] pr-[18px] pl-[18px] gap-[10px] flex  flex-col">
                             <div className="gap-[15px] flex  text-gray font-normal text-xs " style={{ letterSpacing: "0.2px]" }}>
                                 <h1 className="hover:text-skyblue">Google</h1>
                                 <h1 className="hover:text-skyblue">Trending</h1>
@@ -129,7 +129,7 @@ export default function Post() {
                                 height={306}></Image>
                         </div>
                         {/* Text */}
-                        <div className="pt-[25px]  pb-[35px] pr-[25px] pl-[25px] gap-[10px] flex  flex-col">
+                        <div className="pt-[25px]  pb-[35px] pr-[18px] pl-[18px] gap-[10px] flex  flex-col">
                             <div className="gap-[15px] flex  text-gray font-normal text-xs " style={{ letterSpacing: "0.2px]" }}>
                                 <h1 className="hover:text-skyblue">Google</h1>
                                 <h1 className="hover:text-skyblue">Trending</h1>

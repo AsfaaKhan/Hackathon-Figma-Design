@@ -6,7 +6,7 @@ export default function HeroPage() {
             <div className="relative bg-[url('/images/bgImg.svg')] bg-cover bg-center bg-no-repeat h-[730px] ">
                 <div className="flex gap-20 pt-[112px] pb-[112px] lg:w-auto xl:w-[1044px]  ">
 
-                    <div className="relative   mx-auto  flex flex-col justify-center text-center items-center lg:text-left lg:flex-row lg:justify-between lg:items-start text-white gap-[35px] lg:w-[599px]  ">
+                    <div className="container relative   mx-auto  flex flex-col justify-center text-center items-center lg:text-left lg:flex-row lg:justify-between lg:items-start text-white gap-[35px] lg:w-[599px]  ">
                         <div className="flex flex-col gap-[35px]">
                             <div>
                                 <h5 className="  font-bold text-base  ">SUMMER 2020</h5>
