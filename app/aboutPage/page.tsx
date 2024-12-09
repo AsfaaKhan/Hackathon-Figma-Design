@@ -84,10 +84,7 @@ export default function About() {
 
             {/* Slider */}
             <div className="container">
-
                 <div className="bg-[url('/about/Videocard.svg')]  bg-no-repeat bg-cover bg-center h-[400px]">
-
-
                 </div>
             </div>
 
@@ -201,12 +198,10 @@ export default function About() {
                         </div>
                     </div>
                     </div>
-
                 </div>
             </div>
 
             {/* Companies */}
-
             <div className="bg-[#fafafa]">
             <div className="flex flex-col justify-center items-center text-center gap-[10px]">
                     <h3 className="font-bold text-[40px] leading-[50px] text-darkBlue" style={{ letterSpacing: "0.2px" }}>Big Companies Are Here</h3>

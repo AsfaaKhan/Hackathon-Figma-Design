@@ -8,14 +8,14 @@ export default function Gallery() {
         <div className="pt-20 pb-20 gap-12 ">
 
             {/* Heading */}
-            <div className="flex flex-col justify-center items-center text-center gap-[10px]">
-                <h3 className="font-bold text-2xl text-darkBlue" style={{ "letterSpacing": "0.1px" }}>EDITOR’S PICK</h3>
+            <div className="container pt-20 pb-20  flex flex-col justify-center items-center text-center gap-[10px]">
+                <h3 className="font-bold text-2xl text-darkBlue" style={{ "letterSpacing": "0.1px" }}>{`EDITOR’S PICK`}</h3>
                 <p className="font-normal text-sm  text-gray" style={{ "letterSpacing": "0.2px" }}>Problems trying to resolve the conflict between </p>
 
             </div>
 
             {/* Gallery */}
-            <div className="container flex flex-col  gap-[31px]  lg:flex-row">
+            <div className="container flex flex-col  gap-[30px]  lg:flex-row">
                 {/* 1st side */}
 
                 <div className=" w-full lg:w-[500px] h-[500px]  bg-[url('/images/1.svg')] bg-no-repeat bg-cover bg-center ">

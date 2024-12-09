@@ -5,7 +5,6 @@ import Gallery from "@/components/gallery";
 import Product from "@/components/product";
 import HeroPage2 from "@/components/heroPage2";
 import Post from "@/components/post";
-import Footer from "@/components/footer";
 export default function Home() {
   return (
     <div>
@@ -16,7 +15,7 @@ export default function Home() {
       <Product/>
       <HeroPage2/>
       <Post/>
-      <Footer/>
+
     </div>
   );
 }
