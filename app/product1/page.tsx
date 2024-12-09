@@ -22,8 +22,8 @@ import Button from "@/components/button";
 export default function Product1() {
     return (
         <div>
-            <HeadLine2/>
-            <Header/>
+            <HeadLine2 />
+            <Header />
 
             {/* First Section */}
             <div>
@@ -83,23 +83,23 @@ export default function Product1() {
                             mb-6 "></div>
                             <div className="pt-5 pb-5">
                                 <Image src={"/sellerproduct/product-colors.svg"}
-                                alt="colour"
-                                width={150}
-                                height={30}></Image>
+                                    alt="colour"
+                                    width={150}
+                                    height={30}></Image>
                             </div>
 
                             <div className="flex  gap-[5px]">
 
                                 <div>
-                                    <Button name="Select Options"/>
+                                    <Button name="Select Options" />
                                 </div>
                                 <div className="flex justify-center items-center text-center gap-[10px]">
-                                    <div className="rounded-[44.79px] bg-white"><CiHeart size={40}/></div>
+                                    <div className="rounded-[44.79px] bg-white"><CiHeart size={40} /></div>
                                     <div className=" rounded-[44.79px] bg-white">
                                         <CgShoppingCart size={40} />
                                     </div>
                                     <div className=" rounded-[44.79px] bg-white">
-                                        < EyeIcon size={40}/>
+                                        < EyeIcon size={40} />
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@ export default function Product1() {
                         <div className="rounded-[9px] flex text-darkBlue
                      font-bold text-2xl p-[25px] gap-[30px"style={{ letterSpacing: "0.1px" }} >
                             <h1>the quick fox jumps over </h1> </div>
-                        <div className="w-[332px] text-gray font-normal text-sm "
+                        <div className=" text-gray font-normal text-sm "
                             style={{ letterSpacing: "0.2px" }}>
                             <p>{`Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.`}
                                 <br />
