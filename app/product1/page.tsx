@@ -94,12 +94,12 @@ export default function Product1() {
                                     <Button name="Select Options" />
                                 </div>
                                 <div className="flex justify-center items-center text-center gap-[10px]">
-                                    <div className="rounded-[44.79px] bg-white"><CiHeart size={40} /></div>
+                                    <div className="rounded-[44.79px] bg-white"><CiHeart size={35} /></div>
                                     <div className=" rounded-[44.79px] bg-white">
-                                        <CgShoppingCart size={40} />
+                                        <CgShoppingCart size={35} />
                                     </div>
                                     <div className=" rounded-[44.79px] bg-white">
-                                        < EyeIcon size={40} />
+                                        < EyeIcon size={35} />
                                     </div>
                                 </div>
                             </div>
